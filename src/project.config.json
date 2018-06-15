@@ -1,0 +1,82 @@
+{
+  "baseUrl": "",
+  "deviceId":"web",
+  "headerImgUrl": "/img/yun_system_title.png",
+  "enterpriseUrl": "http://www.jsptpd.com",
+  "systemName":"通用WEB应用模板系统",
+  "copyRight": "中通服咨询设计研究研究有限公司出品",
+  "homeUrl": "",
+  "upLoadUrl": "http://localhost:10002/planFile/getPic?fileName=",
+  "upLoadModelUrl": "http://172.16.11.66:10002",
+  "pageSize": 5,
+  "sysCode": 111001,
+  "version": "v1.0.0",
+  "contact":{
+    "contacts": "李大伟",
+    "email": "LDW@jsptpd.com",
+    "phone": "13845879625"
+  },
+  "pages": {
+    "welcome": {
+      "component": "./pages/Login/welcome"
+    },
+    "login": {
+      "models": "./pages/Login/model",
+      "component": "./pages/Login/login"
+    },
+    "loginControl": {
+      "component": "./pages/Login/loginControl",
+      "models": "./pages/Login/model"
+    },
+    "basicLayout": {
+      "component": "./layouts/BasicLayout",
+      "models": ["./pages/System/SysSetting/User/model","./pages/Login/model"]
+    },
+    "403": {
+      "path": "/exception/403",
+      "component": "./pages/Exception/403"
+    },
+    "404": {
+      "path": "/exception/404",
+      "component": "./pages/Exception/404"
+    },
+    "500": {
+      "path": "/exception/500",
+      "component": "./pages/Exception/500"
+    },
+    "Org": {
+      "path": "/BasicLayout/System/SysSetting/Org",
+      "models": "./pages/System/SysSetting/Org/model",
+      "component": "./pages/System/SysSetting/Org"
+    },
+    "User": {
+      "path": "/BasicLayout/System/SysSetting/User",
+      "models": "./pages/System/SysSetting/User/model",
+      "component": "./pages/System/SysSetting/User/index"
+    },
+    "Role": {
+      "path": "/BasicLayout/System/SysSetting/Role",
+      "models": "./pages/System/SysSetting/Role/model",
+      "component": "./pages/System/SysSetting/Role/index"
+    },
+    "Auth": {
+      "path": "/BasicLayout/System/SysSetting/Auth",
+      "models": ["./pages/System/SysSetting/Auth/model","./pages/System/SysSetting/Role/model"],
+      "component": "./pages/System/SysSetting/Auth/index"
+    },
+    "Menu": {
+      "path": "/BasicLayout/System/SysSetting/Menu",
+      "models": "./pages/System/SysSetting/Menu/model",
+      "component": "./pages/System/SysSetting/Menu"
+    },
+    "Personal": {
+      "path": "/BasicLayout/System/OtherSetting/Personal",
+      "models": "./pages/System/OtherSetting/Personal/model",
+      "component": "./pages/System/OtherSetting/Personal/index"
+    },
+    "SystemInfo": {
+      "path": "/BasicLayout/System/OtherSetting/SystemInfo",
+      "component": "./pages/System/OtherSetting/SystemInfo/index"
+    }
+  }
+}

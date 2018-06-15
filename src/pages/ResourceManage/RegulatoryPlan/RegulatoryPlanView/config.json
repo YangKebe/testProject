@@ -1,0 +1,6 @@
+{
+  "pKey": "gpsId",
+  "cacheMode": true,
+  "codePath": "ResourceManage/RegulatoryPlan/RegulatoryView",
+  "pageTag": "controlPlanGPS"
+}

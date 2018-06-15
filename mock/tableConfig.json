@@ -1,0 +1,108 @@
+{
+  "User": {
+    "pKey": "userId",
+    "valueFormat": {
+      "userId": "userId|+",
+      "userName": "userName|+",
+      "userType": "104",
+      "orgId": "110",
+      "password": "password|+",
+      "mobilePhone": "mobilePhone|+",
+      "idCardNo": "idCardNo|+",
+      "sex": "103",
+      "email": "email|+",
+      "status": "启用（提交）,冻结,已删除,暂存",
+      "operator": "operator|+",
+      "operateTime": "2018-01-01 00:01:02"
+    }
+  },
+  "RegulatoryPlanManage": {
+    "pKey": "regplanId",
+    "valueFormat": {
+      "regplanId": "regplanId|+",
+      "regplanName": "regplanName|+",
+      "siteNature": "siteNature|+",
+      "siteArea": 3.14,
+      "buildingHeightLimit": 100,
+      "far": 3.14,
+      "peopleNum": 100,
+      "carParkInfo": "carParkInfo|+",
+      "siteLengthWidth": "siteLengthWidth|+",
+      "otherInfo": "otherInfo|+",
+      "dataStatus": "1|有效,0|无效",
+      "remark": "remark|+",
+      "createUser": "createUser|+",
+      "createTime": "2018-03-12",
+      "updateUser": "updateUser|+",
+      "updateTime": "2018-03-12",
+      "planFileId": "planFileId|+"
+    }
+  },
+  "RegulatoryPlanView": {
+    "pKey": "regplanId",
+    "valueFormat": {
+      "regplanId": "regplanId|+",
+      "regplanName": "regplanName|+",
+      "siteNature": "siteNature|+",
+      "siteArea": 3.14,
+      "buildingHeightLimit": 100,
+      "far": 3.14,
+      "peopleNum": 100,
+      "carParkInfo": "carParkInfo|+",
+      "siteLengthWidth": "siteLengthWidth|+",
+      "otherInfo": "otherInfo|+",
+      "planFileId": "planFileId|+",
+      "dataStatus": "1|有效,0|无效",
+      "remark": "remark|+",
+      "createUser": "createUser|+",
+      "createTime": "2018-03-12",
+      "updateUser": "updateUser|+",
+      "updateTime": "2018-03-12"
+    }
+  },
+  "RegulatoryPlanSubManage": {
+    "pKey": "regplanSubId",
+    "valueFormat": {
+      "regplanSubId": "regplanSubId|+",
+      "regplanId": "regplanId|+",
+      "planCode": "planCode|+",
+      "siteCode": "siteCode|+",
+      "siteNature": "siteNature|+",
+      "siteArea": 3.14,
+      "far": 3.14,
+      "buildingDensity": 100,
+      "buildingHeightLimit": "buildingHeightLimit|+",
+      "greeningRate": 100,
+      "peopleNum": 100,
+      "entrances": "entrances|+",
+      "carParkInfo": "carParkInfo|+",
+      "undergroundSpaceUsed": "undergroundSpaceUsed|+",
+      "buildingStatus": "buildingStatus|+",
+      "supporting": "supporting|+",
+      "dataStatus": "|,1|有效,0无效",
+      "dataSrc": "dataSrc|+",
+      "remark": "remark|+",
+      "createUser": "createUser|+",
+      "createTime": "2018-03-12",
+      "updateUser": "updateUser|+",
+      "updateTime": "2018-03-12"
+    }
+  },
+  "FileManage": {
+    "pKey": "planfileId",
+    "valueFormat": {
+      "planfileId": "planfileId|+",
+      "regplanId": "regplanId|+",
+      "fileClass": "fileClass|+",
+      "fileFormat": "fileFormat|+",
+      "filePath": "filePath|+",
+      "dataStatus": "|,1|有效,0无效",
+      "dataSrc": "dataSrc|+",
+      "remark": "remark|+",
+      "createUser": "createUser|+",
+      "createTime": "2018-03-12",
+      "updateUser": "updateUser|+",
+      "updateTime": "2018-03-12"
+    }
+  }
+}

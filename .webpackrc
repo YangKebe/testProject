@@ -1,0 +1,29 @@
+{
+    "extraBabelPlugins": [
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "libraryDirectory": "es",
+                "style": "css"
+            }
+        ],
+        ["module-resolver", {
+             "root": ["./src","./asset"],
+             "alias": {
+             }
+         }]
+    ],
+    "proxy": {
+        "/test": {
+          "target": "http://127.0.0.1:10002",
+          "changeOrigin": true,
+          "pathRewrite": { "^/test" : "" }
+        },
+        "/wuye": {
+          "target": "http://172.16.11.66:10002/",
+          "changeOrigin": true,
+          "pathRewrite": { "^/wuye" : "" }
+        }
+      }
+}

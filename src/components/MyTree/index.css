@@ -1,0 +1,43 @@
+.headerBar{
+  display: flex;
+  align-items: center;
+
+}  
+
+.headIcon{
+  margin-left: 8px;
+  font-size: 16px;
+  position: relative;
+}
+
+.headIcon span{
+  position: absolute;
+  top:23px;
+  left:-16px;
+  display: none;
+  color: green;
+  width: 50px;
+  font-size: 8px;
+}
+
+.headIcon:hover{
+  color: orange;
+}
+
+.headIcon:hover span{
+  display: block;
+}
+
+.funBtns{
+  position: absolute;
+  right: 0;
+  top: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 99;
+}
+
+.funBtn{
+  margin-right: 6px;
+}
